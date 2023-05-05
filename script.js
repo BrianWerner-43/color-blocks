@@ -31,7 +31,7 @@ function appendYellowContainer() {
     $('#color-block').append('<div class="block yellow-fill"></div>');
 }
 // Created a function to call .block to remove each block individually
-function removeColorBlock(){
+function removeColorBlock() {
      $(this).remove();
 
 }
